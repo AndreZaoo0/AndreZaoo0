@@ -18,8 +18,17 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Check trophy API token
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_STATS_TOKEN" ]; then
+            echo "::error::PROFILE_STATS_TOKEN is missing. Add a GitHub PAT as repository secret PROFILE_STATS_TOKEN before rerunning."
+            exit 1
+          fi
+
       - name: Generate trophy.svg
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
         with:
           username: AndreZaoo0
           file: dist/trophy.svg
