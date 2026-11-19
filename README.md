@@ -40,7 +40,7 @@
 <div data-importer="stats" align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=AndreZaoo0&show_icons=true&include_all_commits=true&count_private=true&theme=omni&hide_border=false&hide_title=false" height="150" alt="GitHub stats" />
   <img src="https://raw.githubusercontent.com/AndreZaoo0/AndreZaoo0/languages-output/languages.svg?locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=10&theme=omni&hide_border=false&order=2" height="150" alt="languages graph" />
-  <img src="https://github-profile-trophy.vercel.app/?username=AndreZaoo0&theme=dracula&no-bg=true&no-frame=true&row=1&column=6" height="150" alt="GitHub trophy card" />
+  <img src="https://stable-github-profile-trophy.vercel.app/?username=AndreZaoo0&theme=dracula&no-bg=true&no-frame=true&row=1&column=6" height="150" alt="GitHub trophy card" />
 </div>
 
 ###
